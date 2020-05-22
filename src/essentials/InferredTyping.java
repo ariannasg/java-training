@@ -1,5 +1,6 @@
 package essentials;
 
+//inferred typing exists since Java 10. It allows variables to not require the specification of their type explicitly
 public class InferredTyping {
     public static void printType(String x) {
         System.out.println(x + " is a string");
