@@ -1,3 +1,5 @@
+package basics;
+
 // All java code needs to be inside a class
 public class HelloWorld {
     //    this is the entry-point to our program

@@ -1,3 +1,5 @@
+package basics;
+
 public class EmployeeSalaryCalculator {
     public static void calculateEmployeeSalary(
             double hoursEmployeeWorksPerWeek,

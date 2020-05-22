@@ -1,3 +1,5 @@
+package basics;
+
 public class Triangle {
     // class variables (or static vars)
     static int numOfSides = 3;
@@ -24,7 +26,7 @@ public class Triangle {
 
     // this is a class method or static method. It needs to be called using the class name directly.
     public static void showPurpose() {
-        System.out.println("This is the representation of a Triangle");
+        System.out.println("This is the representation of a basics.Triangle");
     }
 
     public static void main(String[] args) {
@@ -37,7 +39,7 @@ public class Triangle {
         System.out.println("TriangleB height is " + triangleB.height);
 
         Triangle.showPurpose();
-        System.out.println("A Triangle has " + Triangle.numOfSides + " sides.");
+        System.out.println("A basics.Triangle has " + Triangle.numOfSides + " sides.");
     }
 }
 
@@ -46,5 +48,5 @@ public class Triangle {
 //TriangleA base is 10.0
 //TriangleB area is 60.0
 //TriangleB height is 15.0
-//This is the representation of a Triangle
-//A Triangle has 3 sides.
+//This is the representation of a basics.Triangle
+//A basics.Triangle has 3 sides.

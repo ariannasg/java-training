@@ -1,3 +1,5 @@
+package basics;
+
 public class Meal {
     public static void calculateTotalMealPrice(double listedMealPrice, double tipRate, double taxRate) {
         double tip = tipRate * listedMealPrice;
