@@ -1,4 +1,4 @@
-public class Student {
+public class Primitives {
     public static void main(String[] args) {
         int studentAge = 15;
         double studentGPA = 3.45;
