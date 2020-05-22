@@ -20,3 +20,11 @@ public class MultipleChoiceQuestion {
         }
     }
 }
+
+//CONSOLE OUTPUT:
+//What is the capital of Spain? Madrid, Barcelona or Valencia
+//Type in the correct choice
+//valencia
+//That answer is incorrect. Try again
+//madrid
+//That's the correct answer
