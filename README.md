@@ -18,9 +18,9 @@ Practicing Java.
  https://www.oracle.com/uk/java/technologies/javase-downloads.html
  
 ## Running a program
-For example, to run [HelloWorld.java](src/HelloWorld.java)
-- Compile the java source code into java byte code: `javac HelloWorld.java`
-- Run the compiled program: `java HelloWorld`
+For example, to run [MultipleChoiceQuestion.java](src/MultipleChoiceQuestion.java)
+- Compile the java source code into java byte code: `javac MultipleChoiceQuestion.java`
+- Run the compiled program: `java MultipleChoiceQuestion`
   
 ## License
 This project is licensed under the terms of the MIT License.
