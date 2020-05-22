@@ -16,6 +16,11 @@ Practicing Java.
 ## Local setup
 - Install Java SE (Standard Edition) Development Kit. The JDK includes the JRE (Java Runtime Environment). 
  https://www.oracle.com/uk/java/technologies/javase-downloads.html
+ 
+## Running a program
+For example, to run [HelloWorld.java](src/HelloWorld.java)
+- Compile the java source code into java byte code: `javac HelloWorld.java`
+- Run the compiled program: `java HelloWorld`
   
 ## License
 This project is licensed under the terms of the MIT License.
