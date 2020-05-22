@@ -8,7 +8,7 @@
 * [License](#license)
 
 ## Description
-Implementation of the course: https://www.linkedin.com/learning/learning-java-4/downloading-java-on-your-computer
+Implementation of the course: https://www.linkedin.com/learning/learning-java-4/
 
 ## Objectives
 Practicing Java.
