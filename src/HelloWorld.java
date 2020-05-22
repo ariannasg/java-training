@@ -5,3 +5,6 @@ public class HelloWorld {
         System.out.println("Hello world!");
     }
 }
+
+//CONSOLE OUTPUT:
+//Hello world!
