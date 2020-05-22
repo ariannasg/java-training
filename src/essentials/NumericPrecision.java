@@ -19,4 +19,8 @@ public class NumericPrecision {
 }
 
 //CONSOLE OUTPUT:
-
+//0.036000000000000004
+//0.012
+//0.012
+//0.036
+//0.036
