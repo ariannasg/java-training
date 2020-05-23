@@ -21,6 +21,28 @@ public class LinkedLists {
 
         System.out.println(myList.getFirst());
         System.out.println(myList.getLast());
+
+        System.out.println("\nImplementing a queue with a linked list");
+        LinkedList<Customer> queue = new LinkedList<>();
+        // adds it to the end of the list (to the tail)
+        queue.add(new Customer("Sally"));
+        queue.add(new Customer("Ben"));
+        queue.add(new Customer("Emma"));
+        queue.add(new Customer("Fred"));
+
+        do {
+            System.out.println(queue);
+            serveCustomer(queue);
+        } while (!queue.isEmpty());
+
+    }
+
+    static void serveCustomer(LinkedList<Customer> queue) {
+        Customer customer = queue.poll();
+
+        if (customer != null) {
+            customer.serve();
+        }
     }
 }
 
@@ -30,3 +52,13 @@ public class LinkedLists {
 //[A, C, D]
 //A
 //D
+//
+//Implementing a queue with a linked list
+//[Sally, Ben, Emma, Fred]
+//Sally has been served
+//[Ben, Emma, Fred]
+//Ben has been served
+//[Emma, Fred]
+//Emma has been served
+//[Fred]
+//Fred has been served
