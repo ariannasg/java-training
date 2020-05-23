@@ -32,3 +32,23 @@ public class Operators {
 }
 
 //CONSOLE OUTPUT:
+//Assignment and Mathematical operators
+//10
+//Addition operator: 15
+//Subtraction operator: 5
+//Multiplication operator: 50
+//Division operator: 2
+//Modulo operator (remainder of the division): 0
+//Incrementing using postfix notation: 11
+//Decrementing  using postfix notation: 10
+//Incrementing using prefix notation: 11
+//Decrementing using prefix notation: 10
+//
+//Equality operators
+//false
+//true
+//false
+//true
+//Logical operators
+//&&, ||
+//Ternary operator: intValue is 10
