@@ -1,6 +1,7 @@
 package basics;
 
 public class Strings {
+    // Strings are immutable
     public static void main(String[] args) {
         String studentFirstName = "Kayla";
         String studentLastName = "Hammon";
