@@ -17,6 +17,11 @@ public class Strings {
 
         double studentGPA = 3.45;
         System.out.println(studentFirstName + " " + studentLastName + " has a GPA of: " + studentGPA);
+
+        var newString = new StringBuilder("Welcome");
+        newString.append(" to this class");
+        System.out.println(newString);
+        System.out.println(newString.toString());
     }
 }
 
@@ -27,3 +32,5 @@ public class Strings {
 //K
 //H
 //Kayla Hammon has a GPA of: 3.45
+//Welcome to this class
+//Welcome to this class
