@@ -1,11 +1,12 @@
 package advanced;
 
-public class Building {
-    public int numberOfRooms = 7;
+public class House extends Building {
+
+    public int numberOfRooms = 10;
 
     @Override
     public String toString() {
-        return ("building");
+        return ("house");
     }
 
     public int getNumberOfRooms() {
