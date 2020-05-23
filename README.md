@@ -13,6 +13,8 @@ Implementation of several courses:
 The code for this course lives on the [basics folder](src/basics).
 - Course https://www.linkedin.com/learning/java-11-plus-essential-training/ for practicing Java intermediate essentials. 
 The code for this course lives on the [essentials folder](src/essentials).
+- Course https://www.linkedin.com/learning/advanced-java-programming-2/ for practicing Java advanced topics. 
+The code for this course lives on the [advanced folder](src/advanced).
 
 ## Objectives
 Practicing Java at different levels.
@@ -27,6 +29,13 @@ Practicing Java at different levels.
 - Creating custom classes
 - Working with inheritance
 - Managing data collections
+- Using generic methods in Java
+- Using wildcards in generic programming
+- Implementing a queue with a LinkedList
+- Functional programming in Java
+- Multi-threading
+- Working with I/O in Java
+- Managing files and directories
 
 ## Local setup
 - Install Java SE (Standard Edition) Development Kit. The JDK includes the JRE (Java Runtime Environment). 
