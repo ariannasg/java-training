@@ -39,7 +39,7 @@ Practicing Java at different levels.
 
 ## Local setup
 - Install Java SE (Standard Edition) Development Kit. The JDK includes the JRE (Java Runtime Environment). 
- https://www.oracle.com/uk/java/technologies/javase-downloads.html
+ Install the open source version (Open JDK) from: https://jdk.java.net/
 - Add the appropriate documentation URL to the SDK configuration in the IDE. 
 In IntelliJ: `File -> Project Structure -> SDKs -> Documentation Paths -> Specify URL`
  
