@@ -20,6 +20,7 @@ public class Streams {
     public static void main(String[] args) {
         ArrayList<Book> books = populateLibrary();
 
+        // sequential streams
         books.stream().filter(book -> {
             return book.getAuthor().startsWith("J"); // this always need to be a boolean expression
         }).filter(book -> {
@@ -28,6 +29,11 @@ public class Streams {
 
         System.out.println();
         books.stream().filter(book -> book.getAuthor().startsWith("K")).forEach(System.out::println);
+
+        // we should only use parallel streams when iterating over very large data sets on a multi-core machine,
+        // this is when the performance will be improved using parallel streams. otherwise use sequential streams.
+        System.out.println();
+        books.parallelStream().filter(book -> book.getAuthor().startsWith("K")).forEach(System.out::println);
     }
 
     public static ArrayList<Book> populateLibrary() {
@@ -58,6 +64,10 @@ public class Streams {
 //CONSOLE OUTPUT:
 //Author: John Steinbeck , title: East of Eden
 //Author: Jane Austen , title: Emma
+//
+//Author: Kazuo Ishiguro , title: The Remains of the Day
+//Author: Kazuo Ishiguro , title: Never Let Me Go
+//Author: Kazuo Ishiguro , title: The Buried Giant
 //
 //Author: Kazuo Ishiguro , title: The Remains of the Day
 //Author: Kazuo Ishiguro , title: Never Let Me Go
