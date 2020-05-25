@@ -12,6 +12,8 @@ public class FunctionalInterfaces {
         greetingMessage.greet("Ari");
 
         // using a method reference
+        // method references are ways of shortening a lambda expression
+        // they are use when the lambda passes on a variable and then calls a method on that variable
         GreetingMessage greetingMessage2 = (System.out::println);
         greetingMessage2.greet("Ari");
     }
