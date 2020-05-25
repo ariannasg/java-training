@@ -9,10 +9,14 @@ public class FunctionalInterfaces {
                 System.out.println("Hello " + name);
             }
         };
-
         greetingMessage.greet("Ari");
+
+        // using a method reference
+        GreetingMessage greetingMessage2 = (System.out::println);
+        greetingMessage2.greet("Ari");
     }
 }
 
 //CONSOLE OUTPUT:
 //Hello Ari
+//Ari
