@@ -3,7 +3,8 @@ package advanced;
 // a deadlock occurs when 2 or more threads get blocked forever. this can happen when threads are waiting for
 // resources held by each other.
 // in general, is good to avoid nested synchronised blocks like the ones below, to avoid creating monitor
-// objects that can potentially end up generating a deadlock situation
+// objects that can potentially end up generating a deadlock situation.
+// a way to fix the issue below would be to make cook2 pick up the spoon first
 public class Deadlock {
     public static final Object spoon = new Object();
     public static final Object bowl = new Object();
@@ -25,11 +26,11 @@ public class Deadlock {
         });
 
         Thread cook2 = new Thread(() -> {
-            synchronized (spoon) {
+            synchronized (bowl) {
                 System.out.println("Cook2: Holding the bowl...");
                 System.out.println("Cook2: Waiting for the spoon...");
 
-                synchronized (bowl) {
+                synchronized (spoon) {
                     System.out.println("Cook2: Holding the spoon and the bowl.");
                 }
             }
@@ -39,3 +40,9 @@ public class Deadlock {
         cook2.start();
     }
 }
+
+//CONSOLE OUTPUT:
+//Cook2: Holding the bowl...
+//Cook2: Waiting for the spoon...
+//Cook1: Holding the spoon...
+//Cook1: Waiting for the bowl...
