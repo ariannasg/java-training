@@ -21,4 +21,6 @@ public class StringInterpolation {
 }
 
 //CONSOLE OUTPUT:
-
+//Clothing item: Shirt, size: M, color: red, price: $14.990000
+//Clothing item: Shirt, size: M, color: red, price: $14.990000
+//Clothing item: Shirt, size: M, color: red, price: $14.99
